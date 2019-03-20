@@ -1,0 +1,45 @@
+
+$nav-color: #f62f5e;
+
+.nav {
+    background-color: #ffffff;
+    height: 72px;
+    padding: 0;
+    margin: 0 0;
+    position: fixed;
+    width: 100%;
+    //border-color: black;
+    //border-style: solid;
+}
+
+.nav li {
+    margin: 0 52px 21px 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+    height: 36px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+
+    a {
+        text-decoration: none;
+        color: #2e2e2e;
+    }
+}
+
+.nav .app-logo {
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-right: 74px;
+
+    a {
+        color: $nav-color
+    }
+}
