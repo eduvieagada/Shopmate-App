@@ -21,6 +21,9 @@ class Navigation extends Component {
                     <li>
                         <a href="#">Shoes</a>
                     </li>
+                    <li>
+                        <a href="#">Brands</a>
+                    </li>
                 </ul>
             </div>
         );
